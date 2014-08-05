@@ -1,6 +1,6 @@
 <?php
-	define ( 'DB_HOST', 'sql28.hostingdiscounter.nl' );
-	define ( 'DB_NAME', 'jankoehoorn-nl' );
-	define ( 'DB_USER', 'jankoehoorn' );
-	define ( 'DB_PASS', 'maestro' );
+	define ( 'DB_HOST', '*****' );
+	define ( 'DB_NAME', '*****' );
+	define ( 'DB_USER', '*****' );
+	define ( 'DB_PASS', '*****' );
 ?>
