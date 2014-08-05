@@ -1,0 +1,15 @@
+h1 {
+}
+table {
+	border-collapse: separate;
+	border-spacing: 10px;
+	border-color: #fff;
+}
+td {
+	font: 14px 
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	width: 200px;
+}

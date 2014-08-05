@@ -1,0 +1,58 @@
+
+	h1 {
+	}
+	#result {
+		background: #C24F4A;
+		border-radius: 4px;
+		color: #fff;
+		font-size: 36px;
+		margin: 20px 0px;
+		min-height: 20px;
+		padding: 10px;
+		width: 300px;
+		text-align: right;
+	}
+	
+	img {
+		border-radius: 4px;
+	}
+	
+	fieldset {
+		padding-bottom: 15px;
+	}
+	
+	#filters span {
+		background: #ddd;
+		border: 1px solid #aaa;
+		border-radius: 4px;
+		margin-right: 5px;
+		padding: 5px;
+	}
+	
+	table {
+		border-collapse: separate;
+		border-spacing: 2px;
+		border: 1px dotted #ccc;
+	}
+	
+	tr {
+	}
+	
+	td {
+		padding: 4px 5px;
+	}
+	
+	td.on {
+		background: #666;
+	}
+	
+	td.off {
+		background: #ccc;
+	}
+	
+	tr.on td.on {
+		background: #C24F4A;
+	}
+	
+	tr.on td.of {
+	}

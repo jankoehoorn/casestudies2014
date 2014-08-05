@@ -1,0 +1,6 @@
+
+
+	div#canvas-layer 										{ position: relative; height: 700px; }
+	canvas#canv1 											{ position: absolute; }
+	canvas#canv2 											{ position: absolute; }
+	video#vid1 												{ position: absolute; }

@@ -1,0 +1,94 @@
+
+	/* Layout */
+	body 						{ background: #eee; }
+	#container 					{ margin: 0px auto; padding: 60px 120px; width: 860px; border-radius: 0px 0px 5px 5px; box-shadow: 0px 0px 10px #ccc; background: #fff; }
+	ul#nav 						{ list-style-type: none; float: right; }
+	ul#nav li 					{ float: left; }
+	ul#nav li a 				{ display: block; }
+	#cases 						{
+								  margin: 30px 0px 0px 15px;
+								  padding: 0px;
+								  
+								  /* 3-column layout for modern browsers */
+								  -webkit-column-count: 4; /* Safari and Chrome */
+								  -moz-column-count: 4; /* Firefox */
+								  column-count: 4;
+								  
+								  -webkit-column-gap: 50px; /* Safari and Chrome */
+								  -moz-column-gap: 50px; /* Firefox */
+								  column-gap: 50px;
+								  
+								  -webkit-column-rule: 1px dotted #C24F4A; /* Safari and Chrome */
+								  -moz-column-rule: 1px dotted #C24F4A; /* Firefox */
+								  column-rule: 1px dotted #C24F4A;
+								}
+	#cases ul 					{ margin: 0px; }
+	#cases ul li 				{ font-size: 13px; }
+	video,
+	canvas 						{ border: 1px solid #ccc; }
+	fieldset 					{ background: #f6f6f6; margin: 25px 0px; padding: 5px 25px; border-radius: 5px; }
+	label 						{ display: block; margin-top: 10px; cursor: pointer; }
+	.block						{ display: block; }
+	.inline 					{ display: inline !important; }
+	.large 						{ width: 800px !important; }
+	.medium 					{ width: 400px !important; }
+	.small 						{ width: 100px !important; }
+	input[type=email],
+	input[type=text] 			{ border: 1px solid #ccc; padding: 5px 5px; width: 300px; border-radius: 4px; }
+	input[type=email]:focus,
+	input[type=text]:focus 		{ border-color: #C24F4A; }
+	select 						{ border: 1px solid #ccc; padding: 5px 5px; width: 300px; border-radius: 4px; }
+	textarea					{ border: 1px solid #ccc; padding: 5px 5px; width: 300px; border-radius: 4px; }
+	input[type=submit] 			{ display: block; margin-top: 10px; }
+	
+	select.err,
+	textarea.err,
+	input[type=text].err 		{ border: 1px solid #900; background: pink; text-align: left; }
+
+	p.edit,
+	p.edit-area 				{ border: 1px solid #C24F4A; margin-bottom: 10px; padding: 5px 5px; width: 300px; border-radius: 4px; }
+	p.edit-select				{ border: 1px solid #C24F4A; margin-bottom: 10px; padding: 5px 5px; width: 300px; border-radius: 4px; }
+
+
+	/* Typography */
+	#container 					{ font-family: "Open Sans", sans-serif; line-height: 1.6; }
+	label, select, input, textarea,
+	li, th, td					{ font-family: "Open Sans", sans-serif; line-height: 1.6; }
+	h1 							{ font-size: 28px; color: #C24F4A; border-bottom: 1px dotted #ccc; padding-bottom: 14px; }
+	h2 							{ font-size: 18px; color: #999; margin-top: 18px; }
+	h3 							{ font-size: 16px; color: #aaa; margin-top: 16px; }
+	label, select, input, textarea,
+	p, li 						{ font-size: 14px; color: #999; }
+	pre 						{ font-size: 11px; color: #C24F4A; padding: 10px; border: 1px dotted #C24F4A; margin: 20px 0px; }
+	pre.assert 					{ color: #fff; background: #C24F4A; border-radius: 4px; }
+	li.case 					{ text-transform: capitalize; }
+	ul 							{ margin: 14px 20px 14px 0px; padding: 0px; list-style-type: disc; list-style-position: outside; }
+	a 							{ color: #C24F4A; text-decoration: none; }
+	a:hover 					{ text-decoration: underline; }
+
+	table 						{ border-collapse: separate; border: 1px solid #ccc; width: 100%; }
+	table tr 					{  }
+	table th 					{ font-weight: bold; }
+	table th, td 				{ padding: 5px 10px; border: 1px solid #ddd; text-align: left; vertical-align: top; }
+
+	/* Misc */
+	.err 						{ color: #f00; border: 1px solid #f00; padding: 5px; text-align: center; }
+	.msg 						{ color: #00f; border: 1px solid #00f; padding: 5px; text-align: center; }
+	.debug 						{ font: 12px Menlo; color: #909; border: 1px solid #909; }
+
+
+	/* From html5boilerplate */
+	.clearer:before,
+	.clearer:after 				{
+								  content: " "; /* 1 */
+								  display: table; /* 2 */
+								}
+
+	.clearer:after 				{ clear: both; }
+
+	/*
+	 * For IE 6/7 only
+	 * Include this rule to trigger hasLayout and contain floats.
+	 */
+
+	.clearer 					{ *zoom: 1; }

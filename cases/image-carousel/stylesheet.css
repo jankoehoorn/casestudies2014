@@ -1,0 +1,6 @@
+
+
+	h1 									{ }
+	#images 							{ float: left; width: 405px; height: 300px; }
+	#titles 							{ float: left; width: 405px; height: 300px; margin-left: 20px; }
+	#html 								{ font: 10px "Inconsolata-dz", Courier; overflow: scroll; }

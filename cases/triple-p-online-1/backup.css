@@ -1,0 +1,40 @@
+
+	/* Cube img size: 74 x 89 */
+
+	h1 									{  }
+
+
+
+	#cubes 								{ padding-top: 100px; position: relative; height: 300px; outline: 1px; }
+	#cube-01 							{ left: 4px; top: 0px; }
+	#cube-02 							{ left: 79px; top: 0px; }
+	#cube-03 							{ left: 154px; top: 0px; }
+	#cube-04 							{ left: 39px; top: 65px; }
+	#cube-05 							{ left: 114px; top: 65px; }
+	#cube-06 							{ left: 0px; top: 130px; }
+	#cube-07 							{ left: 75px; top: 130px; }
+	#cube-08 							{ left: 150px; top: 130px; }
+
+	#cube-01 							{ background: url('cube-01.png') 0px 0px no-repeat; }
+	#cube-02 							{ background: url('cube-02.png') 0px 0px no-repeat; }
+	#cube-03 							{ background: url('cube-03.png') 0px 0px no-repeat; }
+	#cube-04 							{ background: url('cube-04.png') 0px 0px no-repeat; }
+	#cube-05 							{ background: url('cube-05.png') 0px 0px no-repeat; }
+	#cube-06 							{ background: url('cube-06.png') 0px 0px no-repeat; }
+	#cube-07 							{ background: url('cube-07.png') 0px 0px no-repeat; }
+	#cube-08 							{ background: url('cube-08.png') 0px 0px no-repeat; }
+
+	.cube 								{ position: absolute; width: 74px; height: 100px; cursor: pointer; }
+	.cube .info 						{
+										  display: none;
+										  position: absolute;
+										  left: 300px;
+										  top: 100px;
+										  width: 500px;
+										  height: auto;
+										  padding: 20px 50px;
+										  border-radius: 10px;
+										  color: #009FDA;
+										  background: #C0E7F8;
+										}
+

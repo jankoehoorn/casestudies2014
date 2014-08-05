@@ -1,0 +1,7 @@
+
+	#form-container p							{ color: #6E6E6E; background: #E7E7E7; border: none; padding: 5px 10px; }
+	#form-container p.hint 						{ color: #A4A4A4; }
+	#form-container p.edit-area 				{ height: 100px; overflow: auto; }
+	#form-container p input 					{ border: none; background: transparent; }
+	#form-container p.edit.err					{ border: 1px solid #A30000; color: #A30000; background: #fcc; text-align: left; }
+	#form-container p textarea 					{ border: none; background: transparent; overflow: visible; }

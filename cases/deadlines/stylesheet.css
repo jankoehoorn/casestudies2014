@@ -1,0 +1,16 @@
+
+	body 								{ background: #333; }
+	#container 							{ width: auto; background: #333; box-shadow: 0px 0px 0px #333; }
+	h1 									{ }
+
+	div.deadline 						{ font-size: 12px; }
+	div.deadline > div 					{ margin: 10px 0px; }
+	.padding 							{ padding: 5px 10px; }
+	.rounded 							{ border-radius: 4px; }
+	div.month 							{ background: #009FDA; }
+	div.day 							{ background: #9FDA00; }
+	div.hour 							{ background: #DA9F00; }
+	div.hour.zero 						{ color: #DA9F00; background: transparent; }
+	div.minute 							{ background: #DA009F; }
+	div.minute.zero						{ color: #DA009F; background: transparent; }
+	div.second 							{ background: #00DA9F; }

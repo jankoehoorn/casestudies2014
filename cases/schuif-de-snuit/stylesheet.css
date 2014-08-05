@@ -1,0 +1,18 @@
+
+	h1 {
+	}
+	#game-wrapper {
+		position: relative;
+		width: 600px;
+		height: 600px;
+		background: #ccf;
+	}
+	#game-wrapper img {
+		position: absolute;
+		outline: 1px solid #fff;
+		cursor: pointer;
+	}
+	#piece-empty {
+		position: absolute;
+		z-index: 10;
+	}

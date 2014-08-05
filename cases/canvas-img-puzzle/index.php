@@ -1,0 +1,38 @@
+<?php
+	require_once '../../elements/error-checking.php';
+	require_once '../../elements/ip-blocking.php';
+	require_once '../../elements/init.php';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title><?php echo $title; ?> :: Casestudies :: Jan Koehoorn</title>
+
+		<?php
+			require_once '../../elements/header-required.php';
+		?>
+	</head>
+
+	<body>
+		<div id="container">
+			<ul id="nav">
+				<li><a href="../../">back</a></li>
+			</ul>
+			
+			<h1><?php echo $title; ?></h1>
+			<h2>Casestudies :: Jan Koehoorn</h2>
+
+			<div id="game-container">
+				<div id="example">
+					<img id="lorempixel" src="ps20.png" width="600" height="450" />
+				</div>
+				<div id="puzzle">
+					<canvas id="c1" width="600" height="450"></canvas>
+				</div>
+			</div>
+			</p>
+		</div>
+	</body>
+</html>

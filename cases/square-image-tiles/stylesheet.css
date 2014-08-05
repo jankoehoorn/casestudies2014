@@ -1,0 +1,8 @@
+
+	h1 									{ }
+	div#tiles 							{ border: 1px solid #009FDA; padding: 10px; }
+	span.tile 							{ overflow: hidden; border: 1px solid #009FDA; float: left; margin: 0px 5px 0px 0px; }
+	span.tile > img 					{ display: block; }
+	span.w80 							{ width: 80px; height: 80px; }
+	span.w90 							{ width: 90px; height: 90px; }
+	span.w100 							{ width: 100px; height: 100px; }

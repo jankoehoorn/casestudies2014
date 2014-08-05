@@ -1,0 +1,5 @@
+<div id="template">
+	<h2 class="item-header"></h2>
+	<p xml:id="intro" class="intro"></p>
+	<ul xml:id="list"></ul>
+</div>

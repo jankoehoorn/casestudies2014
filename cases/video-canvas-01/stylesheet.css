@@ -1,0 +1,50 @@
+/**
+ * 	video stylesheet
+ */
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: #fcfcfc;
+}
+
+h1 {
+	font-size: 24px;
+	color: #669;
+}
+
+p {
+	font-size: 12px;
+	color: #669;
+}
+
+a {
+	text-decoration: none;
+	color: #909;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#container {
+	margin: 20px auto;
+	padding: 20px;
+	width: 900px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	text-align: center;
+	background: #fff;
+}
+
+#video, #canvas {
+	border: 1px solid #669;
+}
+#v {
+/*	display: none;*/
+}
+#c {
+	/*	background: url('http://lorempixel.com/1280/720/') 0 0 no-repeat;*/
+	margin: 0px auto;
+	width: 800px;
+	height: 600px;
+	border: 1px solid blue;
+}

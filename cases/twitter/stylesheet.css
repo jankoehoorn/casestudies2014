@@ -1,0 +1,20 @@
+#twitter-carousel {
+	width: 800px;
+}
+
+.wrapper {
+	margin-bottom: 25px;
+}
+
+.twitter-item {
+	padding: 30px;
+}
+
+.bx-viewport {
+	border: 1px solid #C24F4A;
+	border-radius: 5px;
+}
+
+#twitter-ticker {
+	width: 200px;
+}

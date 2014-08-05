@@ -1,0 +1,224 @@
+
+	@keyframes spreadout01 {
+	0% 			{ left: 263px; top: 100px; }
+	100% 		{ left: 263px; top: 25px; }
+	}
+	@-webkit-keyframes spreadout01 {
+	0% 			{ left: 263px; top: 100px; }
+	100% 		{ left: 263px; top: 25px; }
+	}
+	
+	@keyframes spreadout02 {
+	0% 			{ left: 224px; top: 165px; }
+	100% 		{ left: 179px; top: 115px; }
+	}
+	
+	@-webkit-keyframes spreadout02 {
+	0% 			{ left: 224px; top: 165px; }
+	100% 		{ left: 179px; top: 115px; }
+	}
+	
+	@keyframes spreadout03 {
+	0% 			{ left: 298px; top: 165px; }
+	100% 		{ left: 343px; top: 115px; }
+	}
+	
+	@-webkit-keyframes spreadout03 {
+	0% 			{ left: 298px; top: 165px; }
+	100% 		{ left: 343px; top: 115px; }
+	}
+	
+	@keyframes spreadout04 {
+	0% 			{ left: 185px; top: 230px; }
+	100% 		{ left: 110px; top: 230px; }
+	}
+	
+	@-webkit-keyframes spreadout04 {
+	0% 			{ left: 185px; top: 230px; }
+	100% 		{ left: 110px; top: 230px; }
+	}
+	
+	@keyframes spreadout05 {
+	0% 			{ }
+	100% 		{ }
+	}
+	
+	@-webkit-keyframes spreadout05 {
+	0% 			{ }
+	100% 		{ }
+	}
+	
+	@keyframes spreadout06 {
+	0% 			{ left: 333px; top: 230px; }
+	100% 		{ left: 408px; top: 230px; }
+	}
+	
+	@-webkit-keyframes spreadout06 {
+	0% 			{ left: 333px; top: 230px; }
+	100% 		{ left: 408px; top: 230px; }
+	}
+	
+	@keyframes spreadout07 {
+	0% 			{ left: 220px; top: 295px; }
+	100% 		{ left: 175px; top: 345px; }
+	}
+	@-webkit-keyframes spreadout07 {
+	0% 			{ left: 220px; top: 295px; }
+	100% 		{ left: 175px; top: 345px; }
+	}
+	
+	@keyframes spreadout08 {
+	0% 			{ left: 294px; top: 295px; }
+	100% 		{ left: 341px; top: 345px; }
+	}
+	@-webkit-keyframes spreadout08 {
+	0% 			{ left: 294px; top: 295px; }
+	100% 		{ left: 341px; top: 345px; }
+	}
+	
+	div#cubes {
+	}
+	div#cubes ol {
+		height: 600px;
+		position: relative;
+		width: 600px;
+	}
+	div#cubes ol li {
+		cursor: pointer;
+		height: 89px;
+		position: absolute;
+		width: 74px;
+		z-index: 100;
+	}
+	
+	div#cubes ol li#item-01 {
+		animation: spreadout01 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout01 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-01.png') left top no-repeat;
+		left: 263px;
+		top: 100px;
+	}
+	div#cubes ol li#item-02 {
+		animation: spreadout02 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout02 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-02.png') left top no-repeat;
+		left: 224px;
+		top: 165px;
+	}
+	div#cubes ol li#item-03 {
+		animation: spreadout03 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout03 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-03.png') left top no-repeat;
+		left: 298px;
+		top: 165px;
+	}
+	div#cubes ol li#item-04 {
+		animation: spreadout04 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout04 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-04.png') left top no-repeat;
+		left: 185px;
+		top: 230px;
+	}
+	div#cubes ol li#item-05 {
+		animation: spreadout05 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout05 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-05.png') left top no-repeat;
+		left: 259px;
+		top: 230px;
+	}
+	div#cubes ol li#item-06 {
+		animation: spreadout06 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout06 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-06.png') left top no-repeat;
+		left: 333px;
+		top: 230px;
+	}
+	div#cubes ol li#item-07 {
+		animation: spreadout07 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout07 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-07.png') left top no-repeat;
+		left: 220px;
+		top: 295px;
+	}
+	div#cubes ol li#item-08 {
+		animation: spreadout08 0.6s ease-out 3s 1 normal forwards;
+		-webkit-animation: spreadout08 0.6s ease-out 3s 1 normal forwards;
+		background: url('cube-08.png') left top no-repeat;
+		left: 294px;
+		top: 295px;
+	}
+	
+	div#cubes ol li div.item-wrapper {
+		background: #009FDA;
+		border-radius: 5px;
+		color: #fff;
+		display: none;
+		left: 50px;
+		padding: 10px 20px;
+		position: absolute;
+		top: 50px;
+		width: 300px;
+	}
+	
+	div#cubes ol li h2 {
+		border-bottom: 3px solid #0EBFE9;
+		color: #fff;
+		font: 14px/1.2 Arial, Helvetica, sans-serif;
+		margin: 0px;
+		padding: 10px 0px 5px;
+		text-transform: uppercase;
+	}
+	
+	div#cubes ol li p {
+		color: #fff;
+	}
+	
+	div#cubes div.more {
+	}
+	
+	div#cubes div.more ul {
+		list-style-type: disc;
+		margin: 5px 0px 5px 15px;
+		position: static;
+	}
+	
+	div#cubes div.more ul li {
+		color: #fff;
+		height: auto;
+		position: static;
+	}
+	
+	div#cubes div.more a {
+		color: #fff;
+		display: block;
+		text-align: right;
+	}
+
+	div#cubes div.more a:after {
+		content: " > ";
+	}
+		
+	div#cubes div.more a:hover {
+		color: #0EBFE9;
+	}
+	
+	div#cubes ol li:hover {
+		z-index: 200;
+	}
+	
+	div#cubes ol li:hover .item-wrapper {
+		display: block;
+	}
+	
+	div#cubes ol li:hover .item-wrapper .more {
+	}
+	
+	.test1 {
+		background: gold;
+	}
+	.test2 {
+		background: green;
+	}
+	.test3 {
+		background: blue;
+	}

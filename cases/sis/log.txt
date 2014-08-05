@@ -1,0 +1,24 @@
+[ 2014-05-03 10:43:46 ] 
+Started playing Video ID: 30838667
+
+[ 2014-05-03 10:43:48 ] 
+Paused Video ID: 30838667
+
+[ 2014-05-03 10:43:49 ] 
+Hyperlink ID: tracker-hover-1
+Hover time in seconds: 0.1
+
+[ 2014-05-03 10:43:49 ] 
+Hyperlink ID: tracker-hover-2
+Hover time in seconds: 0.0
+
+[ 2014-05-03 10:43:54 ] 
+Hyperlink ID: through-navigation-button
+Hyperlink href: http://www.bureaublanco.nl/
+Page url: http://www.jankoehoorn.nl/casestudies2014/cases/sis/
+
+[ 2014-05-03 10:43:57 ] 
+Hyperlink ID: through-carousel
+Hyperlink href: http://www.bureaublanco.nl/
+Page url: http://www.jankoehoorn.nl/casestudies2014/cases/sis/
+

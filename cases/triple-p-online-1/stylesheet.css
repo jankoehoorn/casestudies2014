@@ -1,0 +1,109 @@
+
+	div#cubes {
+		border: 1px solid #E9E9E9;
+		margin: 10px 0px;
+		padding: 10px;
+		position: relative;
+	}
+	div#cubes ol {
+		height: 700px;
+		margin-left: 40px;
+		position: relative;
+		width: 838px;
+	}
+	div#cubes ol li {
+		background: url('bg-01-top.png') left top no-repeat;
+		cursor: pointer;
+		display: inline;
+		float: left;
+		height: 67px;
+		margin-right: 20px;
+		padding-top: 196px;
+		position: absolute;
+		width: 126px;
+		z-index: 100;
+	}
+	
+	div#cubes ol li#item-01 {
+		left: 0px;
+		top: 0px;
+	}
+	div#cubes ol li#item-02 {
+		left: 200px;
+		top: 0px;
+	}
+	div#cubes ol li#item-03 {
+		left: 400px;
+		top: 0px;
+	}
+	div#cubes ol li#item-04 {
+		left: 600px;
+		top: 0px;
+	}
+	div#cubes ol li#item-05 {
+		left: 0px;
+		top: 350px;
+	}
+	div#cubes ol li#item-06 {
+		left: 200px;
+		top: 350px;
+	}
+	div#cubes ol li#item-07 {
+		left: 400px;
+		top: 350px;
+	}
+	div#cubes ol li#item-08 {
+		left: 600px;
+		top: 350px;
+	}
+	
+	div#cubes ol li div.item-wrapper {
+		background: #e6f0f5 url('bg-01-bottom.png') left top no-repeat;
+		border-radius: 5px;
+		padding: 30px 10px 20px;
+	}
+	
+	div#cubes ol li h2 {
+		color: #009FDA;
+		font: 14px/17px Arial, Helvetica, sans-serif;
+		margin-top: 0px;
+		text-transform: uppercase;
+	}
+
+	div#cubes ol li p {
+		color: #6E6E6E;
+	}
+		
+	div#cubes div.more {
+		background: #bde6fc;
+		display: none;
+	}
+	
+	div#cubes div.more a {
+		color: #009FDA;
+		text-decoration: none;
+	}
+
+	div#cubes ol li:hover {
+		background-image: url('bg-01-top-hover.png');
+		z-index: 200;
+	}
+	
+	div#cubes ol li:hover .item-wrapper {
+		background: #bde6fc url('bg-01-bottom-hover.png') left top no-repeat;
+		width: 300px;
+	}
+	
+	div#cubes ol li:hover .item-wrapper .more {
+		display: block;
+	}
+	
+	.test1 {
+		background: gold;
+	}
+	.test2 {
+		background: green;
+	}
+	.test3 {
+		background: blue;
+	}

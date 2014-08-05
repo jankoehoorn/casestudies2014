@@ -1,0 +1,57 @@
+#container {
+	width: 1080px;
+}
+h3 {
+	border-bottom: 1px solid #ccc;
+	font-style: italic;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+a.sis {
+	/*	color: #099;*/
+}
+pre#response {
+	height: 200px;
+	overflow: auto;
+}
+.hover-container {
+	float: left;
+	width: 200px;
+}
+.hover-wrapper {
+	background: #eee;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	height: 50px;
+	margin-right: 20px;
+	padding: 10px;
+	position: relative;
+}
+.hover-content {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	display: none;
+	height: 125px;
+	left: 100px;
+	padding: 20px;
+	position: absolute;
+	top: 10px;
+	width: 500px;
+	z-index: 10;
+	-webkit-box-shadow: 0px 0px 20px 0 #cccccc;
+	box-shadow: 0px 0px 20px 0 #cccccc;
+}
+.hover-wrapper:hover {
+	background: #C24F4A;
+}
+.hover-wrapper:hover .hover-content {
+	display: block;
+}
+
+.vimeo {
+	float: left;
+	margin: 20px 0px;
+	width: 350px;
+}

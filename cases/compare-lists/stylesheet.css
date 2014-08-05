@@ -1,0 +1,8 @@
+
+
+	#col-1 									{ float: left; width: 430px; }
+	#col-2 									{ float: left; width: 430px; }
+	textarea 								{ width: 360px; padding: 10px 20px; }
+	div.info p 								{ font: 12px Menlo; color: #C24F4A; }
+	h2 strong 								{ color: #C24F4A; font-style: italic; }
+
