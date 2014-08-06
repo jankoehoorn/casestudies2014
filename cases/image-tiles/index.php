@@ -44,7 +44,7 @@
 						imagecopyresampled ( $dst, $src, 0, 0, 0, 0, TILE_W, TILE_H, $w, $w );
 					}
 
-					imagejpeg ( $dst, 'tiles/' . basename ( $image ) );
+					imagejpeg ( $dst, 'tiles/' . basename ( $image ), 100 );
 					imagedestroy ( $dst );
 				}
 			?>
