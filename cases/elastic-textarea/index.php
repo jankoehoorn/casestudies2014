@@ -24,6 +24,7 @@
 
 			<?php echo '<h1>' . $title . '</h1>'; ?>
 			<h2>Casestudies :: Jan Koehoorn</h2>
+			<p>These textareas should grow in length when you add text.</p>
 			<textarea class="elastic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</textarea>
 			<textarea class="elastic"></textarea>			
 		</div>
